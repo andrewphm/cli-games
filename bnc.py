@@ -1,8 +1,5 @@
 from random import randint
 
-
-
-
 def play_game():
     roles = ["Bear", "Ninja", "Cowboy"]
     player = False
@@ -19,9 +16,6 @@ def play_game():
         play_again = input("Would you like to play again? (yes/no) > ")    
         if play_again == 'yes':
             player = False
-
-
-
 
 
 def check_winner(player, computer, score):
