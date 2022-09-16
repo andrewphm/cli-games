@@ -20,3 +20,6 @@ for item in data["cards"]:
         print(f'Inccorect! The correct answer was {item["a"]}.')
         print(f"Correct! Current score: {score}/{total}")
 
+end_game_message = f"Thanks for playing! You scored: {score} out of {total} correct!"
+
+print(end_game_message)
